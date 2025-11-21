@@ -1,0 +1,15 @@
+name: stgl-safe
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - cudatoolkit
+  - numpy
+  - scipy
+  - matplotlib
+  - networkx
+  - pip
+  - pip:
+    - gdal
